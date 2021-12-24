@@ -1,4 +1,4 @@
-import Page404                      from '../pages/p404/Page404'
+import Page404                      from '../pages/Page404/Page404'
 import HomePage                     from '../pages/home/HomePage'
 import AboutPage                    from '../pages/about/AboutPage'
 import SkillsPage                   from '../pages/skills/SkillsPage'

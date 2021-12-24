@@ -1,11 +1,15 @@
 import {BrowserRouter as Router}  from 'react-router-dom'
-import UseRouter       from './router/router'
-
+import UseRouter                  from './router/router'
+import Header                     from './pages/common/Header/Header'
+import Loading                    from './pages/common/Loading/Loading'
 function App() {
 
   return (
     <Router>
-        <UseRouter/>
+        <div className='App'>
+          <Header/>
+          <UseRouter/>
+        </div>
     </Router>
   );
 }

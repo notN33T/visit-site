@@ -1,0 +1,149 @@
+@font-face {
+  font-family: FjallaOne-Regular;
+  src: url("./fonts/FjallaOne-Regular.ttf");
+}
+@font-face {
+  font-family: OoohBaby-Regular;
+  src: url("./fonts/OoohBaby-Regular.ttf");
+}
+.main-header {
+  width: 130px;
+  height: 100vh;
+  background-color: #1D1D1D;
+}
+
+.header-c {
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.header-nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.nav-btn {
+  font-family: FjallaOne-Regular;
+  font-size: 1rem;
+  color: #fffcf98c;
+  text-decoration: none;
+  border-top: 1px solid #ffffff23;
+  border-bottom: 1px solid #ffffff2a;
+  width: 100%;
+  text-align: center;
+  padding: 20px 0;
+}
+.nav-btn:hover {
+  -webkit-transition: 0.08s;
+  transition: 0.08s;
+  color: #11cccc;
+}
+
+.logo-c {
+  padding-top: 20%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.logo-txt-c {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-top: 10px;
+}
+
+.logo-txt {
+  color: #fffcf98c;
+  font-family: FjallaOne-Regular;
+  font-size: 0.8rem;
+  padding: 5px 0;
+  text-transform: uppercase;
+}
+
+.logo {
+  width: 100px;
+  height: 100px;
+  border-radius: 200px;
+  background-image: url(../media/elogo.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #11cccc;
+}
+
+.cont-c {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-bottom: 60%;
+}
+
+.icon-git {
+  color: #fffcf98c;
+  width: 18px;
+  height: 18px;
+  padding: 10px;
+}
+.icon-git:hover {
+  -webkit-transition: all 0.1s;
+  transition: all 0.1s;
+  color: #11cccc;
+}
+
+.icon-in {
+  color: #fffcf98c;
+  width: 18px;
+  height: 18px;
+  padding: 10px;
+}
+.icon-in:hover {
+  -webkit-transition: all 0.1s;
+  transition: all 0.1s;
+  color: #11cccc;
+}
