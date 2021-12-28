@@ -1,12 +1,13 @@
-import {BrowserRouter as Router}  from 'react-router-dom'
-import UseRouter                  from './router/router'
-import Header                     from './pages/common/Header/Header'
-import Loading                    from './pages/common/Loading/Loading'
-function App() {
+import { BrowserRouter as Router }    from 'react-router-dom'
+import UseRouter                      from './router/router'
+import Header                         from './pages/common/Header/Header'
+import Music                          from './pages/common/Music/Music'
 
+function App() {
   return (
     <Router>
         <div className='App'>
+          <Music/>
           <Header/>
           <UseRouter/>
         </div>

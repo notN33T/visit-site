@@ -56,13 +56,4 @@ body, html, #root  {
 	min-width:100vw;
 	min-height: 100vh;
 }
-@media screen and (max-width:300px) {
-	body {
-		min-width: 300px;
-	}
-	html {
-		min-width: 300px;
-		min-height: 100vh;
-	}
-}
 

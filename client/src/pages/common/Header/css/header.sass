@@ -14,14 +14,15 @@ $defaultFont : FjallaOne-Regular
 $htmlFont    : OoohBaby-Regular
 
 // Main header
-
+body
+    overflow-x: hidden
 .main-header
-    width: 130px
-    height: 100vh
+    min-width: 130px
+    min-height: 100vh
     background-color: $firstColor
 
 .header-c
-    height: 100vh
+    min-height: 100vh
     display: flex
     flex-direction: column
     justify-content: space-between
@@ -100,3 +101,56 @@ $htmlFont    : OoohBaby-Regular
     &:hover
         transition: all 0.1s
         color: $hoverColor
+
+// Button for mobile and header for mobile
+
+.main-mobile-header-na
+    display: none
+    position: absolute
+    overflow: hidden
+    transition: all 0.2s
+    width: 0.01px
+    z-index: 2
+    min-height: 100vh
+    background-color: $firstColor
+.hdr-click-active
+    width: 100%
+.btn-hdr-clicked
+    transform: rotate(1.5turn)
+.btn-mbl-tgl-c
+    display: none
+    background: $firstColor
+    justify-content: center
+    align-items: center
+    z-index: 2
+.btn-mbl-tgl
+    display: none
+    width: 50px
+    z-index: 2
+    color: #fff
+    transition: 0.5s
+.main-mobile-header-na
+    .nav-btn 
+        color: #fff
+        font-size: 2rem
+        padding: 30px 0
+        border: none
+@media screen and (max-width: 500px)
+    .main-header
+        display: none
+    .main-mobile-header-na
+        display: block
+    .btn-mbl-tgl
+        display: block
+    .btn-mbl-tgl-c
+        display: flex
+
+
+@media screen and (min-width:2035px)
+    .main-header
+        width: 300px
+        .nav-btn
+            font-size: 2rem
+@media screen and (max-height: 660px)
+    .cont-c
+        padding: 0

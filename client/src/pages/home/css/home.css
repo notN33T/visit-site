@@ -1,0 +1,12 @@
+.home-c {
+  background: #383838;
+  width: calc(100% - 130px);
+  min-height: 100%;
+  color: #fff;
+}
+
+@media screen and (max-width: 500px) {
+  .home-c {
+    width: calc(100%);
+  }
+}
