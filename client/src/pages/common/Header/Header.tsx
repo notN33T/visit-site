@@ -26,7 +26,7 @@ export default function Header() {
                 <div className='nav-c'>
                     <nav className='header-nav'>
                         <Link to='/' className='nav-btn'>Home</Link>
-                        <Link to='/about' className='nav-btn'>About</Link>
+                        <Link to='/about' className='nav-btn'>Aboute</Link>
                         <Link to='/skills' className='nav-btn'>Skills</Link>
                         <Link to='/contact' className='nav-btn'>Contact</Link>
                     </nav>
@@ -58,7 +58,7 @@ export default function Header() {
                 <div className='nav-c'>
                     <nav className='header-nav'>
                         <Link to='/' className='nav-btn' onClick={showHeaderClick}>Home</Link>
-                        <Link to='/about' className='nav-btn' onClick={showHeaderClick}>About</Link>
+                        <Link to='/about' className='nav-btn' onClick={showHeaderClick}>Aboute</Link>
                         <Link to='/skills' className='nav-btn' onClick={showHeaderClick}>Skills</Link>
                         <Link 
                             to='/contact' 
