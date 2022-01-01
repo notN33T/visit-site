@@ -1,18 +1,16 @@
 .about-tech-c {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: 200px 10px 200px 10px 200px;
-  grid-template-columns: repeat(3, 200px);
+  -ms-grid-columns: 150px 10px 150px 10px 150px;
+  grid-template-columns: repeat(3, 150px);
   gap: 10px;
   grid-auto-rows: minmax(100px, auto);
   padding: 20px;
+  width: 50%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
 .about-tech-c span {
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
   text-align: center;
 }
 
@@ -26,6 +24,9 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  font-family: OoohBaby-Regular;
 }
 
 .tech-css {
@@ -62,6 +63,38 @@
 
 .tech-mysql {
   color: #E48E00;
+}
+
+.tech-ts {
+  color: #007ACC;
+}
+
+.tech-git {
+  color: #181617;
+}
+
+.tech-npm {
+  color: #CC3534;
+}
+
+.tech-c span {
+  display: block;
+  opacity: 0;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+.tech-c img {
+  position: absolute;
+  width: 60px;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+.tech-c:hover img {
+  opacity: 0;
+}
+.tech-c:hover span {
+  opacity: 1;
 }
 
 @media screen and (max-width: 1250px) {
