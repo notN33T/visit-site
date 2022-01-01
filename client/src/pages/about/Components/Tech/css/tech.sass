@@ -1,6 +1,6 @@
 .about-tech-c
     display: grid
-    grid-template-columns: repeat(3, 150px)
+    grid-template-columns: repeat(3, 1fr)
     gap: 10px
     grid-auto-rows: minmax(100px, auto)
     padding: 20px
@@ -13,54 +13,79 @@
     align-items: center
     justify-content: center
     text-transform: uppercase
-    font-size: 1.5rem
+    font-size: 1.6rem
+    font-weight: bold
     font-family: OoohBaby-Regular
 
-.tech-css
-    color: #1572B6
+
 .tech-sass
     color: #CD6799
-.tech-node
-    color: #83CD29
-.tech-react
-    color: #62DAFB
-.tech-redux
-    color: #764ABC
-.tech-express
-    color: #ACE074
+    animation-delay: 4.5s
+.tech-js
+    color: #F7DF1E
+    animation-delay: 4s
 .tech-html
     color: #E44F26
+    animation-delay: 4s
+.tech-css
+    color: #1572B6
+    animation-delay: 3.5s
 .tech-mongodb
     color: #439934
+    animation-delay: 3.5s
 .tech-mysql
     color: #E48E00
-.tech-ts
-    color: #007ACC
-.tech-git
-    color: #181617
+    animation-delay: 3.5s
+.tech-node
+    color: #83CD29
+    animation-delay: 3s
+.tech-redux
+    color: #764ABC
+    animation-delay: 3s
 .tech-npm
     color: #CC3534
+    animation-delay: 3s
+.tech-react
+    color: #62DAFB
+    animation-delay: 2.5s
+.tech-ts
+    color: #007ACC
+    animation-delay: 2.5s
+.tech-git
+    color: #ffffff
+    animation-delay: 2s
 .tech-c
     span
         display: block
         opacity: 0
         transition: 0.2s
+        cursor: default
+        user-select: none
     img
         position: absolute
         width: 60px
         transition: 0.2s
+        cursor: default
+        user-select: none
 .tech-c:hover
     img
-        opacity: 0
+        opacity: 0.2 !important
     span
         opacity: 1
 
+.tech-c
+    img
+        opacity: 0
+        animation-fill-mode: forwards
+        animation-name: loaded-1
+        animation-duration: 0.5s
 
-
-
-
-
-
+    
+@keyframes loaded-1
+    0%
+        opacity: 0
+    100%
+        opacity: 1
 
 
 @media screen and (max-width: 1250px)

@@ -1,5 +1,11 @@
 .about-info-c, .about-tech-c
     width: 50%
+
+.about-info-c
+    display: flex
+    flex-direction: column
+    justify-content: center
+
 .html-txt
     margin-left: 40px
     font-size: 1rem
@@ -7,12 +13,18 @@
     color: #ffffff6b
     cursor: default
     user-select: none
+
+    animation-delay: 0.1s
+
 .about-title
     margin: 20px 0 20px 80px
     font-family: FjallaOne-Regular
     font-size: 6rem
     color: #15f7f7
     cursor: default
+
+    animation-delay: 0.8s
+
 .about-text
     max-width: 600px
     margin: 20px 0 20px 120px
@@ -21,10 +33,22 @@
     line-height: 30px
     color: #ffffff
     cursor: default     
-.about-info-c
-    display: flex
-    flex-direction: column
-    justify-content: center
+
+    animation-delay: 1.6s
+
+.about-text, .about-title, .html-txt
+    opacity: 0
+    animation-fill-mode: forwards
+    animation-name: loaded-1
+    animation-duration: 0.8s
+
+
+@keyframes loaded-1
+    0%
+        opacity: 0
+    100%
+        opacity: 1
+
 
 @media screen and (max-width: 1250px)
     .about-info-c
@@ -49,3 +73,4 @@
         padding: 15px
         margin: 20px 0 20px 30px
         font-size: 1rem
+    

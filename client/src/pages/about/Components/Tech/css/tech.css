@@ -1,8 +1,8 @@
 .about-tech-c {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: 150px 10px 150px 10px 150px;
-  grid-template-columns: repeat(3, 150px);
+  -ms-grid-columns: 1fr 10px 1fr 10px 1fr;
+  grid-template-columns: repeat(3, 1fr);
   gap: 10px;
   grid-auto-rows: minmax(100px, auto);
   padding: 20px;
@@ -25,56 +25,81 @@
       -ms-flex-pack: center;
           justify-content: center;
   text-transform: uppercase;
-  font-size: 1.5rem;
+  font-size: 1.6rem;
+  font-weight: bold;
   font-family: OoohBaby-Regular;
-}
-
-.tech-css {
-  color: #1572B6;
 }
 
 .tech-sass {
   color: #CD6799;
+  -webkit-animation-delay: 4.5s;
+          animation-delay: 4.5s;
 }
 
-.tech-node {
-  color: #83CD29;
-}
-
-.tech-react {
-  color: #62DAFB;
-}
-
-.tech-redux {
-  color: #764ABC;
-}
-
-.tech-express {
-  color: #ACE074;
+.tech-js {
+  color: #F7DF1E;
+  -webkit-animation-delay: 4s;
+          animation-delay: 4s;
 }
 
 .tech-html {
   color: #E44F26;
+  -webkit-animation-delay: 4s;
+          animation-delay: 4s;
+}
+
+.tech-css {
+  color: #1572B6;
+  -webkit-animation-delay: 3.5s;
+          animation-delay: 3.5s;
 }
 
 .tech-mongodb {
   color: #439934;
+  -webkit-animation-delay: 3.5s;
+          animation-delay: 3.5s;
 }
 
 .tech-mysql {
   color: #E48E00;
+  -webkit-animation-delay: 3.5s;
+          animation-delay: 3.5s;
 }
 
-.tech-ts {
-  color: #007ACC;
+.tech-node {
+  color: #83CD29;
+  -webkit-animation-delay: 3s;
+          animation-delay: 3s;
 }
 
-.tech-git {
-  color: #181617;
+.tech-redux {
+  color: #764ABC;
+  -webkit-animation-delay: 3s;
+          animation-delay: 3s;
 }
 
 .tech-npm {
   color: #CC3534;
+  -webkit-animation-delay: 3s;
+          animation-delay: 3s;
+}
+
+.tech-react {
+  color: #62DAFB;
+  -webkit-animation-delay: 2.5s;
+          animation-delay: 2.5s;
+}
+
+.tech-ts {
+  color: #007ACC;
+  -webkit-animation-delay: 2.5s;
+          animation-delay: 2.5s;
+}
+
+.tech-git {
+  color: #ffffff;
+  -webkit-animation-delay: 2s;
+          animation-delay: 2s;
 }
 
 .tech-c span {
@@ -82,21 +107,58 @@
   opacity: 0;
   -webkit-transition: 0.2s;
   transition: 0.2s;
+  cursor: default;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
 }
 .tech-c img {
   position: absolute;
   width: 60px;
   -webkit-transition: 0.2s;
   transition: 0.2s;
+  cursor: default;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
 }
 
 .tech-c:hover img {
-  opacity: 0;
+  opacity: 0.2 !important;
 }
 .tech-c:hover span {
   opacity: 1;
 }
 
+.tech-c img {
+  opacity: 0;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+  -webkit-animation-name: loaded-1;
+          animation-name: loaded-1;
+  -webkit-animation-duration: 0.5s;
+          animation-duration: 0.5s;
+}
+
+@-webkit-keyframes loaded-1 {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes loaded-1 {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
 @media screen and (max-width: 1250px) {
   .about-tech-c {
     width: 100%;

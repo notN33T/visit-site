@@ -2,36 +2,6 @@
   width: 50%;
 }
 
-.html-txt {
-  margin-left: 40px;
-  font-size: 1rem;
-  font-family: OoohBaby-Regular;
-  color: #ffffff6b;
-  cursor: default;
-  -webkit-user-select: none;
-     -moz-user-select: none;
-      -ms-user-select: none;
-          user-select: none;
-}
-
-.about-title {
-  margin: 20px 0 20px 80px;
-  font-family: FjallaOne-Regular;
-  font-size: 6rem;
-  color: #15f7f7;
-  cursor: default;
-}
-
-.about-text {
-  max-width: 600px;
-  margin: 20px 0 20px 120px;
-  font-family: FjallaOne-Regular;
-  font-size: 1.2rem;
-  line-height: 30px;
-  color: #ffffff;
-  cursor: default;
-}
-
 .about-info-c {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -45,6 +15,69 @@
           justify-content: center;
 }
 
+.html-txt {
+  margin-left: 40px;
+  font-size: 1rem;
+  font-family: OoohBaby-Regular;
+  color: #ffffff6b;
+  cursor: default;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  -webkit-animation-delay: 0.1s;
+          animation-delay: 0.1s;
+}
+
+.about-title {
+  margin: 20px 0 20px 80px;
+  font-family: FjallaOne-Regular;
+  font-size: 6rem;
+  color: #15f7f7;
+  cursor: default;
+  -webkit-animation-delay: 0.8s;
+          animation-delay: 0.8s;
+}
+
+.about-text {
+  max-width: 600px;
+  margin: 20px 0 20px 120px;
+  font-family: FjallaOne-Regular;
+  font-size: 1.2rem;
+  line-height: 30px;
+  color: #ffffff;
+  cursor: default;
+  -webkit-animation-delay: 1.6s;
+          animation-delay: 1.6s;
+}
+
+.about-text, .about-title, .html-txt {
+  opacity: 0;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+  -webkit-animation-name: loaded-1;
+          animation-name: loaded-1;
+  -webkit-animation-duration: 0.8s;
+          animation-duration: 0.8s;
+}
+
+@-webkit-keyframes loaded-1 {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes loaded-1 {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
 @media screen and (max-width: 1250px) {
   .about-info-c {
     width: 100%;

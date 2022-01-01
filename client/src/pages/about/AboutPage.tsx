@@ -6,7 +6,7 @@ import './css/about.css'
 
 export default function AboutPage() {
     let [isLoaded, setIsLoaded] = useState(false)
-    setTimeout( () => {setIsLoaded(true)}, 800)
+    setTimeout( () => {setIsLoaded(true)}, 500)
     
     if(!isLoaded) return <Loading/> 
 
