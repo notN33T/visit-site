@@ -16,6 +16,7 @@
   min-height: 100%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  padding: 10px;
 }
 
 .greeting-txt {
@@ -90,8 +91,8 @@
 }
 .contact-btn-c a {
   font-family: FjallaOne-Regular;
-  -webkit-transition: 0.4s;
-  transition: 0.4s;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
   color: #000;
   background: #11CCCC;
   border-radius: 10px;
@@ -99,10 +100,12 @@
 .contact-btn-c a:hover {
   background: #383838;
   color: #FFF;
-  -webkit-transition: background 2s ease;
-  transition: background 2s ease;
+  -webkit-transition: background 0.2s ease;
+  transition: background 0.2s ease;
   -webkit-box-shadow: 0px 0px 10px #11CCCC;
           box-shadow: 0px 0px 10px #11CCCC;
+  padding: 15px 50px;
+  margin: 0px 10px;
 }
 
 .greeting-txt p {
@@ -121,13 +124,13 @@
 
 @-webkit-keyframes light-on {
   0% {
-    text-shadow: 0px 0px 20px #65e8ff;
+    text-shadow: 0px 0px 25px #65e8ff;
   }
   10% {
     text-shadow: 0px 0px 0px #65e8ff;
   }
   20% {
-    text-shadow: 0px 0px 20px #65e8ff;
+    text-shadow: 0px 0px 25px #65e8ff;
   }
   40% {
     text-shadow: 0px 0px 0px #65e8ff;
@@ -136,19 +139,19 @@
     text-shadow: 0px 0px 0px #65e8ff;
   }
   100% {
-    text-shadow: 0px 0px 20px #65e8ff;
+    text-shadow: 0px 0px 25px #65e8ff;
   }
 }
 
 @keyframes light-on {
   0% {
-    text-shadow: 0px 0px 20px #65e8ff;
+    text-shadow: 0px 0px 25px #65e8ff;
   }
   10% {
     text-shadow: 0px 0px 0px #65e8ff;
   }
   20% {
-    text-shadow: 0px 0px 20px #65e8ff;
+    text-shadow: 0px 0px 25px #65e8ff;
   }
   40% {
     text-shadow: 0px 0px 0px #65e8ff;
@@ -157,7 +160,7 @@
     text-shadow: 0px 0px 0px #65e8ff;
   }
   100% {
-    text-shadow: 0px 0px 20px #65e8ff;
+    text-shadow: 0px 0px 25px #65e8ff;
   }
 }
 @media screen and (min-width: 2035px) {
@@ -203,5 +206,31 @@
 
   .home-btn-contact {
     padding: 10px 20px;
+  }
+
+  .contact-btn-c a {
+    padding: 10px 30px;
+  }
+  .contact-btn-c a:hover {
+    padding: 10px 30px;
+  }
+
+  .greeting-txt {
+    margin: 20px 0 20px 40px;
+  }
+
+  .greeting-html-txt {
+    margin-left: 10px;
+  }
+
+  .gif-c {
+    left: 10px;
+  }
+  .gif-c img {
+    margin-left: 30px;
+  }
+
+  .contact-btn-c {
+    margin-left: 30px;
   }
 }

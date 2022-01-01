@@ -1,12 +1,12 @@
 .greeting-span
     letter-spacing: -2px !important
-
 .greeting-c
     display: flex
     flex-direction: column
     justify-content: center
     min-height: 100%
     box-sizing: border-box
+    padding: 10px
 .greeting-txt
     margin: 20px 0 20px 80px
     font-family: FjallaOne-Regular
@@ -54,15 +54,17 @@
     margin-left: 80px
     a
         font-family: FjallaOne-Regular
-        transition: 0.4s
+        transition: 0.2s
         color: #000
         background: #11CCCC
         border-radius: 10px
     a:hover
         background: #383838
         color: #FFF
-        transition: background 2s ease
+        transition: background 0.2s ease
         box-shadow: 0px 0px 10px #11CCCC
+        padding: 15px 50px
+        margin: 0px 10px
 
 .greeting-txt
     p
@@ -75,17 +77,17 @@
 
 @keyframes light-on 
     0%
-        text-shadow: 0px 0px 20px #65e8ff
+        text-shadow: 0px 0px 25px #65e8ff
     10%
         text-shadow: 0px 0px 0px #65e8ff
     20%
-        text-shadow: 0px 0px 20px #65e8ff
+        text-shadow: 0px 0px 25px #65e8ff
     40%
         text-shadow: 0px 0px 0px #65e8ff
     60%
         text-shadow: 0px 0px 0px #65e8ff
     100%
-        text-shadow: 0px 0px 20px #65e8ff
+        text-shadow: 0px 0px 25px #65e8ff
 @media screen and (min-width:2035px)
     .greeting-txt
         font-size: 10rem
@@ -112,3 +114,19 @@
         font-size: 2rem
     .home-btn-contact
         padding: 10px 20px
+    .contact-btn-c
+        a
+            padding: 10px 30px
+        a:hover
+            padding: 10px 30px
+    .greeting-txt
+        margin: 20px 0 20px 40px
+    .greeting-html-txt
+        margin-left: 10px
+    .gif-c
+        left: 10px
+        img
+            margin-left: 30px
+    .contact-btn-c
+            margin-left: 30px
+        

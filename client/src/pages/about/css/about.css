@@ -1,0 +1,54 @@
+.about-c {
+  width: 100%;
+  min-height: 100vh;
+  background: #383838;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.about-info-c, .about-tech-c {
+  width: 50%;
+}
+
+.html-txt {
+  margin-left: 40px;
+  font-size: 1rem;
+  font-family: OoohBaby-Regular;
+  color: #ffffff6b;
+  cursor: default;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+.about-title {
+  margin: 20px 0 20px 80px;
+  font-family: FjallaOne-Regular;
+  font-size: 6rem;
+  color: #15f7f7;
+  cursor: default;
+}
+
+.about-text {
+  max-width: 600px;
+  margin: 20px 0 20px 80px;
+  font-family: FjallaOne-Regular;
+  font-size: 1.5rem;
+  color: #ffffff;
+  cursor: default;
+}
+
+.about-info-c {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
