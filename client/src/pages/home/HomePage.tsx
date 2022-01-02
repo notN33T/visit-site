@@ -5,9 +5,7 @@ import './css/home.css'
 
 export default function HomePage() {
     let [isLoaded, setIsLoaded] = useState(false)
-    useEffect(()=> {
-        setIsLoaded(true)
-    }, [isLoaded])
+    setTimeout( () => {setIsLoaded(true)}, 500)
     
     if(!isLoaded) return <Loading/> 
     return (

@@ -1,5 +1,8 @@
 import { useState }        from 'react'
 import Loading             from '../../pages/common/Loading/Loading'
+import Text                from './components/text/text'
+import Stats               from './components/stats/stats'
+import './css/skills.css'
 
 export default function SkillsPage() {
     let [isLoaded, setIsLoaded] = useState(false)
@@ -8,8 +11,9 @@ export default function SkillsPage() {
     if(!isLoaded) return <Loading/> 
     
     return (
-        <div>
-            Skill page
+        <div className='skills-c'>
+            <Text/>
+            <Stats/>
         </div>
     )
 }
