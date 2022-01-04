@@ -181,6 +181,15 @@
     font-size: 2rem;
   }
 }
+@media screen and (max-width: 500px) {
+  .greeting-html-txt {
+    margin-left: 60px;
+  }
+
+  .gif-c {
+    margin-left: 20px;
+  }
+}
 @media screen and (max-height: 700px) {
   .greeting-txt {
     font-size: 3rem;
@@ -220,11 +229,11 @@
   }
 
   .greeting-html-txt {
-    margin-left: 10px;
+    margin-left: 20px;
   }
 
   .gif-c {
-    left: 10px;
+    left: 0px;
   }
   .gif-c img {
     margin-left: 30px;

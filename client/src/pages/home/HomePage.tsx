@@ -10,6 +10,7 @@ export default function HomePage() {
     if(!isLoaded) return <Loading/> 
     return (
         <div className='home-c'>
+        <div className='bg-anim'></div>
             <Greeting/>
         </div>
     )

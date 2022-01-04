@@ -12,6 +12,7 @@ export default function SkillsPage() {
     
     return (
         <div className='skills-c'>
+            <div className='bg-anim'></div>
             <Text/>
             <Stats/>
         </div>
