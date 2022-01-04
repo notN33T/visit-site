@@ -1,0 +1,128 @@
+.stats-c
+    display: flex
+    flex-direction: column
+    justify-content: center
+    width: 50%
+    margin-left: 40px
+    padding: 15px
+.stats-txt
+    text-align: left
+    margin: 15px 0
+    font-family: FjallaOne-Regular
+    font-size: 1.5rem
+    text-transform: uppercase
+.stats-g-c
+    height: 2px
+    max-width: 100%
+    background-color: #ffffff56
+    border-radius: 4px
+    box-sizing: border-box
+
+.stats-html-g
+    height: 100%
+    width: 0
+    background-color: #E44F26
+    border-radius: 10px
+    
+    animation-name: html-g
+.stats-txt-html
+    color: #E44F26
+
+.stats-css-g
+    height: 100%    
+    width: 0
+    background-color: #1572B6
+    border-radius: 10px
+    
+    animation-name: css-g
+.stats-txt-css
+    color: #1572B6
+
+.stats-js-g
+    height: 100%    
+    width: 0
+    background-color: #F7DF1E
+    border-radius: 10px
+    
+    animation-name: js-g
+.stats-txt-js
+    color: #F7DF1E
+    
+.stats-react-g
+    height: 100%    
+    width: 0
+    background-color: #62DAFB
+    border-radius: 10px
+    
+    animation-name: react-g
+.stats-txt-react
+    color: #62DAFB
+
+.stats-node-g
+    height: 100%    
+    width: 0
+    background-color: #83CD29
+    border-radius: 10px
+    
+    animation-name: node-g
+.stats-txt-node
+    color: #83CD29
+
+.stats-mongo-g
+    height: 100%    
+    width: 0
+    background-color: #439934
+    border-radius: 10px
+
+    animation-name: mongo-g
+.stats-txt-mongo
+    color: #439934
+
+.g-a
+    animation-fill-mode: forwards
+    animation-timing-function: easy-out
+    animation-duration: 1.5s
+    animation-delay: 0.5s
+
+
+@keyframes html-g
+    0%
+        width: 0%
+    100%
+        width: 69%
+
+@keyframes css-g
+    0%
+        width: 0%
+    100%
+        width: 60%
+    
+@keyframes js-g
+    0%
+        width: 0%
+    100%
+        width: 58%
+    
+@keyframes react-g
+    0%
+        width: 0%
+    100%
+        width: 50%
+
+@keyframes node-g
+    0%
+        width: 0%
+    100%
+        width: 40%
+
+@keyframes mongo-g
+    0%
+        width: 0%
+    100%
+        width: 20%
+
+@media screen and (max-width: 900px)
+    .stats-c
+        margin: 20px 20% 
+        width: 50%
+        

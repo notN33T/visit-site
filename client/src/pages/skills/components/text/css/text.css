@@ -1,0 +1,73 @@
+.text-c {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 50%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.title-txt {
+  margin: 20px 0px 20px 80px;
+  font-family: FjallaOne-Regular;
+  font-size: 6rem;
+  color: #41ffef;
+  cursor: default;
+}
+
+.html-text {
+  margin-left: 40px;
+  font-size: 1rem;
+  font-family: OoohBaby-Regular;
+  color: #ffffff6b;
+  cursor: default;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  cursor: default;
+}
+
+.main-skills-txt {
+  margin: 20px 0px 20px 80px;
+  font-family: FjallaOne-Regular;
+  font-size: 1.5rem;
+  color: #fff;
+  line-height: 1.2;
+  cursor: default;
+}
+
+@media screen and (max-width: 900px) {
+  .text-c {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 500px) {
+  .text-c {
+    margin-left: 10px;
+  }
+
+  .title-txt {
+    font-size: 2rem;
+  }
+}
+@media screen and (max-width: 300px) {
+  .html-text {
+    margin-left: 10px;
+  }
+
+  .title-txt {
+    margin: 20px 0px 20px 40px;
+  }
+
+  .main-skills-txt {
+    margin: 20px 0px 20px 40px;
+  }
+}

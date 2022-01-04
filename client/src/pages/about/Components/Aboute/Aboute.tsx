@@ -22,7 +22,7 @@ export default function Aboute() {
                     host, how to create front-end and back-end, solved hundreds of errors :)
                 </p>
                 <p className='about-text'>
-                    At my free time, i like to play games, create Lo-Fi music
+                    At my free time i like to play video games, chess, create Lo-Fi music
                     or watch stuff(youtube, anime, twitch) in English to improove 
                     my knowledge of this language.
                     By the way, one of my songs
