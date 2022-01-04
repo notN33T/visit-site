@@ -1,4 +1,4 @@
-import { useState, useEffect }  from 'react'
+import { useState }        from 'react'
 import Loading             from '../../pages/common/Loading/Loading'
 import Greeting            from './Components/Greeting/Greeting'
 import './css/home.css'

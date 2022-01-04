@@ -125,7 +125,7 @@
     width: 0%;
   }
   100% {
-    width: 69%;
+    width: 53%;
   }
 }
 
@@ -134,7 +134,7 @@
     width: 0%;
   }
   100% {
-    width: 69%;
+    width: 53%;
   }
 }
 @-webkit-keyframes css-g {
@@ -142,7 +142,7 @@
     width: 0%;
   }
   100% {
-    width: 60%;
+    width: 46%;
   }
 }
 @keyframes css-g {
@@ -150,7 +150,7 @@
     width: 0%;
   }
   100% {
-    width: 60%;
+    width: 46%;
   }
 }
 @-webkit-keyframes js-g {
@@ -158,7 +158,7 @@
     width: 0%;
   }
   100% {
-    width: 58%;
+    width: 52%;
   }
 }
 @keyframes js-g {
@@ -166,7 +166,7 @@
     width: 0%;
   }
   100% {
-    width: 58%;
+    width: 52%;
   }
 }
 @-webkit-keyframes react-g {
@@ -174,7 +174,7 @@
     width: 0%;
   }
   100% {
-    width: 50%;
+    width: 46%;
   }
 }
 @keyframes react-g {
@@ -182,7 +182,7 @@
     width: 0%;
   }
   100% {
-    width: 50%;
+    width: 46%;
   }
 }
 @-webkit-keyframes node-g {
@@ -190,7 +190,7 @@
     width: 0%;
   }
   100% {
-    width: 40%;
+    width: 37%;
   }
 }
 @keyframes node-g {
@@ -198,7 +198,7 @@
     width: 0%;
   }
   100% {
-    width: 40%;
+    width: 37%;
   }
 }
 @-webkit-keyframes mongo-g {
