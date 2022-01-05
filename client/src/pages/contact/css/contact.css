@@ -1,0 +1,151 @@
+.contact-c {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  min-height: 100vh;
+  width: 100%;
+  background-color: #383838;
+}
+.contact-c p {
+  text-align: center;
+}
+
+.contact-txt-c, .contact-discr-txt {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-transform: uppercase;
+  margin: 20px 0;
+}
+
+.contact-links-c {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.contact-title-txt {
+  font-family: FjallaOne-Regular;
+  font-size: 6rem;
+  color: #31ffe3;
+}
+
+.contact-discr-txt {
+  font-family: FjallaOne-Regular;
+  font-size: 2rem;
+  color: #fff;
+}
+
+.contact-txt {
+  font-family: FjallaOne-Regular;
+  color: #fff;
+}
+
+.contact-links-c {
+  font-size: 2rem;
+}
+
+.cont-icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 20px;
+  width: 80px;
+  text-transform: uppercase;
+  color: #fff;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+.cont-icons a {
+  text-decoration: none;
+  color: #72ff91;
+  position: absolute;
+  font-family: FjallaOne-Regular;
+  font-size: 1rem;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.cont-icons:hover {
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+.cont-icons:hover svg {
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+  opacity: 0;
+}
+.cont-icons:hover a {
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+  opacity: 1;
+}
+
+@media screen and (max-width: 900px) {
+  .contact-c {
+    padding-left: 130px;
+  }
+
+  .cont-icons {
+    width: 50px;
+  }
+
+  .contact-title-txt {
+    font-size: 3rem;
+  }
+
+  .contact-discr-txt {
+    font-size: 1rem;
+  }
+}
+@media screen and (max-width: 500px) {
+  .contact-c {
+    padding-left: 30px;
+  }
+
+  .contact-links-c {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+
+  .contact-title-txt {
+    font-size: 1.6rem;
+  }
+
+  .contact-discr-txt {
+    width: 40%;
+    font-size: 1rem;
+  }
+}

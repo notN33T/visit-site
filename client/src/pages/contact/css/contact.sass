@@ -1,0 +1,80 @@
+.contact-c
+    display: flex
+    flex-direction: column
+    align-items: center
+    justify-content: center
+    min-height: 100vh
+    width: 100%
+    background-color: #383838
+    p
+        text-align: center
+.contact-txt-c, .contact-discr-txt
+    display: flex
+    flex-direction: column
+    align-items: center
+    justify-content: center
+    text-transform: uppercase
+    margin: 20px 0
+
+.contact-links-c
+    display: flex
+.contact-title-txt
+    font-family: FjallaOne-Regular
+    font-size: 6rem
+    color: #31ffe3
+.contact-discr-txt
+    font-family: FjallaOne-Regular
+    font-size: 2rem
+    color: #fff
+.contact-txt
+    font-family: FjallaOne-Regular
+    color: #fff
+.contact-links-c
+    font-size: 2rem
+.cont-icons
+    display: flex
+    flex-direction: column
+    align-items: center
+    justify-content: center
+    padding: 20px
+    width: 80px
+    text-transform: uppercase
+    color: #fff
+    transition: 0.2s
+    a
+        text-decoration: none
+        color: #72ff91
+        position: absolute
+        font-family: FjallaOne-Regular
+        font-size: 1rem
+        opacity: 0
+        cursor: pointer
+
+.cont-icons:hover
+    transition: 0.2s
+    svg
+        transition: 0.2s
+        opacity: 0
+    a
+        transition: 0.2s
+        opacity: 1
+
+@media screen and (max-width: 900px)
+    .contact-c
+        padding-left: 130px
+    .cont-icons
+        width: 50px
+    .contact-title-txt
+        font-size: 3rem
+    .contact-discr-txt
+        font-size: 1rem
+@media screen and (max-width: 500px)
+    .contact-c
+        padding-left: 30px
+    .contact-links-c
+        flex-direction: column
+    .contact-title-txt
+        font-size: 1.6rem
+    .contact-discr-txt
+        width: 40%
+        font-size: 1rem
